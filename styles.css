@@ -1,0 +1,51 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+	background-image: url(https://media.kingston.com/hyperx/downloads/logo-3d-screensaver-1920x1200.jpg);
+}
+
+h3 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+	max-width: 10rem;
+}
+
+ul {
+	list-style: none;
+	width: 80%;
+}
+
+li {
+	padding-block: 0.4rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: clamp(25vw, 30rem, 75vw);
+	margin: 1rem;
+	border-radius: 0.2rem;
+	background: rgb(188, 236, 228);
+}
+
+.darkTheme {
+	background: rgb(49, 49, 49);
+	color: #fff;
+}
+
